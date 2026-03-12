@@ -6,15 +6,26 @@
     <Nullable>enable</Nullable>
     <RootNamespace>Cerbi.Signatures.Api</RootNamespace>
     <PackageId>Cerbi.Signatures.Api</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>Zeroshi</Authors>
-    <Description>Developer helper methods for API request events in the Cerbi governance ecosystem.</Description>
-    <PackageTags>cerbi;governance;api;signatures;logging</PackageTags>
+    <Version>1.0.1</Version>
+    <Authors>Thomas Nelson</Authors>
+    <Company>Cerbi</Company>
+    <Copyright>© Cerbi 2025</Copyright>
+    <Description>Typed event factories for API lifecycle governed log events. Provides strongly-typed methods for creating GovernedEvent instances for HTTP request tracking — request started, completed, and failed.</Description>
+    <PackageTags>cerbi;governance;api;signatures;logging;compliance;observability</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://cerbi.io</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Zeroshi/Cerbi.Signatures.Api</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>v1.0.1: Added README to NuGet package, project URL, repository metadata.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Cerbi.Governance.Schemas" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
